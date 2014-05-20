@@ -2,4 +2,7 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Voltar', pins_path %>
+<%= link_to pins_path do %>
+      <span class="glyphicon glyphicon-arrow-left"></span>
+             Voltar
+    <% end %>
